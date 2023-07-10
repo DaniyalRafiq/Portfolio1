@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Mini portfolio - Daniyal Rafiq</title>
+
+</head>
+
+<!-- Start of Async Drift Code -->
+<script>
+    "use strict";
+
+    !function () {
+        var t = window.driftt = window.drift = window.driftt || [];
+        if (!t.init) {
+            if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+            t.invoked = !0, t.methods = ["identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on"],
+                t.factory = function (e) {
+                    return function () {
+                        var n = Array.prototype.slice.call(arguments);
+                        return n.unshift(e), t.push(n), t;
+                    };
+                }, t.methods.forEach(function (e) {
+                    t[e] = t.factory(e);
+                }), t.load = function (t) {
+                    var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                    var i = document.getElementsByTagName("script")[0];
+                    i.parentNode.insertBefore(o, i);
+                };
+        }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('drpp4fx9gvme');
+</script>
+<!-- End of Async Drift Code -->
+
+<body>
+    <!--=============== HEADER PROFILE ===============-->
+    <header class="profile container">
+        <!--=============== Theme button ===============-->
+        <i class="ri-moon-line change-theme " id="theme-button"></i>
+
+
+        <div class="profile__container grid ">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="assets/img/Profile.png" alt="">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">Daniyal Rafiq</h2>
+                <h3 class="profile__profession">Web developer</h3>
+                <ul class="profile__social">
+                    <a href="https://www.instagram.com/daniyal_rafiq00/" target="_blank" class="profile__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://github.com/DaniyalRafiq" target="_blank" class="profile__social-link">
+                        <i class="ri-github-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/daniyal-rafiq-061a6b245/" target="_blank"
+                        class="profile__social-link">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+
+                </ul>
+
+
+            </div>
+            <div class="profile__info grid ">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">Worker</h3>
+                    <p class="profile__info-description">Teachonza <br> Teachnology </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">8</h3>
+                    <p class="profile__info-description"> Completed <br> Projects </p>
+                </div>
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">All</h3>
+                    <p class="profile__info-description"> Co worker <br> Satisfied </p>
+                </div>
+            </div>
+
+            <div class="profile__buttons">
+                <a href="./assets/pdf/Daniyal_Rafiq.pdf" onclick="downloadResume()" class="button down downl">
+                    Download Resume <i class="ri-download-line down"></i>
+                </a>
+                <div class="profile__buttons-small">
+                    <a href="https://api.whatsapp.com/send?phone=+923011555732&text=Hello" target="_blank"
+                        class="button button__small button__gray">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="https://www.facebook.com/daniyal.baloch.12764/" target="_blank"
+                        class="button button__small button__gray">
+                        <i class="ri-messenger-line"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button filter-tab-active " data-target="#projects">
+                    Projects
+                </button>
+                <button class="filters__button" data-target="#skills">
+                    Skills
+                </button>
+
+            </ul>
+
+
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid  filters__active " data-content id="projects">
+                    <article class="projects__card">
+                        <img src="assets/img/project1.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Harvel Electric </h3>
+                                <a href="https://eprojects.azfamtech.com/harvel_electric/index.html" target="_blank"
+                                    class="projects__button  button button__small">
+                                    <i class="ri-links-fill"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects__card">
+                        <img src="assets/img/project.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Lion Group </h3>
+                                <a href="https://daniyalrafiq.github.io/lionGroup/" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill  "></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/projects 3.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Animated Jungle </h3>
+                                <a href="https://daniyalrafiq.github.io/Animated-jungle/#sec" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill  "></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+                    <article class="projects__card">
+                        <img src="assets/img/Digital.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Digital Web </h3>
+                                <a href="https://daniyalrafiq.github.io/DIGITAL-WEB/" target="_blank"
+                                    class="button  button__small">
+                                    <i class="ri-links-fill  "></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article class="projects__card">
+                        <img src="assets/img/project-5.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Teachonza 1 </h3>
+                                <a href=" https://daniyalrafiq.github.io/Techonza-1/" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill  "></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+
+
+                    <article class="projects__card">
+                        <img src="assets/img/Teachonza 2.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Teachonza 2 </h3>
+                                <a href="https://daniyalrafiq.github.io/Techonza-2/" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill  "></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="projects__card">
+                        <img src="assets/img/Teachonza 3.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> web </span>
+                                <h3 class="projects__title"> Teachonza 3 </h3>
+                                <a href="https://daniyalrafiq.github.io/Techonza-3/" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill  "></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/Teachonza 4.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Under construction</span>
+                                <h3 class="projects__title"> Teachonza 4 </h3>
+                                <a href="https://daniyalrafiq.github.io/Techonza-4/" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill  "></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/Teachonza 5.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Teachonza 5 </h3>
+                                <a href="https://daniyalrafiq.github.io/Techonza-5/" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill  "></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/teachonza 6.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Teachonza 6 </h3>
+                                <a href="https://daniyalrafiq.github.io/Techonza-6/" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/teachonza 7.png" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Teachonza 6 </h3>
+                                <a href="https://daniyalrafiq.github.io/Techonza-7/" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="projects__card">
+                        <img src="assets/img/cons.avif" class="projects__img" alt="">
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"> Web </span>
+                                <h3 class="projects__title"> Teachonza 8 </h3>
+                                <a href="https://daniyalrafiq.github.io/Techonza-8/" target="_blank"
+                                    class=" button  button__small">
+                                    <i class="ri-links-fill"></i>
+                                </a>
+
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <!--=============== SKILLS ===============-->
+                <div class="skills__content grid" data-content id="skills">
+                    <div class="skills__area">
+                        <h3 class="skill__title">Frontend Skills</h3>
+                    </div>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                                <div>
+                                    <h3 class="skills__name"> HTML </h3>
+                                    <span class="skills__level "> Advanced </span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                                <div>
+                                    <h3 class="skills__name"> CSS </h3>
+                                    <span class="skills__level "> Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                                <div>
+                                    <h3 class="skills__name"> Bootstrap </h3>
+                                    <span class="skills__level "> Advanced </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"> </i>
+                                <div>
+                                    <h3 class="skills__name"> JavaScript</h3>
+                                    <span class="skills__level "> Advanced </span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                                <div>
+                                    <h3 class="skills__name">Jquery </h3>
+                                    <span class="skills__level "> Basic </span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                                <div>
+                                    <h3 class="skills__name"> Git </h3>
+                                    <span class="skills__level "> Advanced </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="skills__area">
+                        <h3 class="skill__title">Backend Skills</h3>
+                    </div>
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"></i>
+                                <div>
+                                    <h3 class="skills__name"> MYSQL</h3>
+                                    <span class="skills__level "> Basic </span>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="ri-checkbox-circle-line"> </i>
+                                <div>
+                                    <h3 class="skills__name"> PHP</h3>
+                                    <span class="skills__level "> Basic </span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+        <span class="footer__copy">
+            &#169; Daniyal Rafiq. All rigths reserved
+        </span>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script>
+        function downloadResume() {
+            // Check if the website is hosted on GitHub Pages
+            if (window.location.hostname.includes('github.io')) {
+                // Create a temporary link element
+                var link = document.createElement('a');
+                link.href = 'assets/pdf/Daniyal_rafiq.pdf';
+                link.download = 'Daniyal_rafiq.pdf';
+
+                // Programmatically trigger the click event to download the file
+                link.click();
+            }
+        }
+    </script>
+</body>
+
+</html>
