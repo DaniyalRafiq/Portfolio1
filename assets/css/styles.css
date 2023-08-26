@@ -501,7 +501,8 @@ img {
     height: 120px;
   }
   .profile__perfil img {
-    width: 90px;
+    width: 111px;
+    filter: drop-shadow(2px 12px 10px black);
   }
   .profile__profession {
     margin-bottom: 1.5rem;
@@ -532,3 +533,6 @@ img {
     margin: 4.5rem 0 2.5rem;
   }
 }
+
+
+
