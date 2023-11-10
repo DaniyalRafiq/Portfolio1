@@ -502,7 +502,7 @@ img {
   }
   .profile__perfil img {
     width: 111px;
-    filter: drop-shadow(2px 12px 10px black);
+    filter: drop-shadow(9px -3px 2px #0004);
   }
   .profile__profession {
     margin-bottom: 1.5rem;
