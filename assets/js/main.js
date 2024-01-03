@@ -78,7 +78,7 @@ sr.reveal(`.filters`, { delay: 800 })
 
 
 
-var totalProjects = document.querySelectorAll('.projects__card');
+var totalProjects = document.querySelectorAll('.count');
 var profileInfoNumber = document.querySelector('.profile__info-group:nth-child(2) .profile__info-number');
 
 profileInfoNumber.textContent = totalProjects.length;
